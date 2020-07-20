@@ -1,0 +1,17 @@
+Nome tabella:
+Concessionario auto
+
+Colonne:
+Targa - stringa - VARCHAR(8) - PRIM KEY(AUTO_INCREMENT - UNIQUE)
+Modello -stringa - VARCHAR(15)
+Kilometri percorsi - numero - SMALL 
+Data fabbricazione - data - DATE
+Descrizione - stringa - TEXT
+Carburante - stringa - VARCHAR(15) - NOTNULL
+Porte - numero - TINYINT
+Tipo di cambio - stringa - VARCHAR(15)
+Marce - numero - TINYINT
+Classe emissioni - stringa - VARCHAR(15)
+Carrozzeria - stringa - VARCHAR(15)
+Veicolo fumatori - boolean - TINYINT
+Prezzo - numero - FLOAT(9,2) - NOTNULL
