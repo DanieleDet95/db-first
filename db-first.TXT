@@ -2,7 +2,8 @@ Nome tabella:
 Concessionario auto
 
 Colonne:
-Targa - stringa - VARCHAR(8) - PRIM KEY(AUTO_INCREMENT - UNIQUE)
+Id - stringa - VARCHAR(20 ) - PRIM KEY(AUTO_INCREMENT - UNIQUE)
+Targa - stringa - VARCHAR(8) - UNIQUE
 Modello -stringa - VARCHAR(15)
 Kilometri percorsi - numero - SMALL 
 Data fabbricazione - data - DATE
